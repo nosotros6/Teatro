@@ -1,0 +1,63 @@
+.brand {
+  font-family: "Martel", serif;
+  font-weight: 800;
+}
+
+.sub-brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.nav-link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  color: #ffffff !important;
+  &:hover,
+  &:focus {
+    color: #82a3f1 !important;
+  }
+}
+/* 
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0) !important;
+} */
+
+.titulo {
+  font-family: "Martel", serif;
+}
+
+.parrafo {
+  font-family: "DM Sans", sans-serif;
+}
+
+.portada {
+  margin-top: 160px;
+}
+
+.text-footer {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.enlace-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.enlace-footer a:hover {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+
+mark {
+  background-color: #ffff00;
+}
+
+@media (min-width: 768px) {
+  #footer .enlace-footer {
+    margin-left: auto;
+  }
+}
