@@ -60,6 +60,32 @@ mark {
   transform: scaleX(-1);
 }
 
+.imagen-fondo-viena {
+  background-image: url("../img/viena9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
+.imagen-fondo-pavarotti {
+  background-image: url("../img/pavarotti-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
+.texto-banner {
+  font-family: "Martel", serif;
+  font-size: 48px;
+  color: #ffffff;
+  /* text-align: center; */
+  padding-top: 8em;
+}
+
 /* Estilos para tamaños de tablet hacia arriba */
 @media only screen and (min-width: 768px) {
   #parrafo-ancho-movil {
