@@ -78,10 +78,19 @@ mark {
   height: 40em;
 }
 
+.imagen-fondo-griminelli {
+  background-image: url("../img/griminelli-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
 .texto-banner {
   font-family: "Martel", serif;
   font-size: 48px;
-  color: #ffffff;
+  /* color: #ffffff; */
   /* text-align: center; */
   padding-top: 8em;
 }
