@@ -87,13 +87,22 @@ mark {
   height: 40em;
 }
 
-.imagen-fondo-galeria2 {
-  background-image: url("../img/galeria-banner1.jpeg");
+.imagen-fondo-galeria {
+  background-image: url("../img/galeria-img-fondo.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 20em;
+  height: 25em;
+}
+
+.imagen-fondo-travesia {
+  background-image: url("../img/travesia-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
 }
 
 
@@ -101,7 +110,6 @@ mark {
   font-family: "Martel", serif;
   font-size: 48px;
   color: #ffffff;
-  /* text-align: center; */
   padding-top: 8em;
 }
 
