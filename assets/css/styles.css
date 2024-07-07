@@ -87,10 +87,20 @@ mark {
   height: 40em;
 }
 
+.imagen-fondo-galeria2 {
+  background-image: url("../img/galeria-banner1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 20em;
+}
+
+
 .texto-banner {
   font-family: "Martel", serif;
   font-size: 48px;
-  /* color: #ffffff; */
+  color: #ffffff;
   /* text-align: center; */
   padding-top: 8em;
 }
