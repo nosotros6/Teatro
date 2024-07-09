@@ -60,6 +60,24 @@ mark {
   transform: scaleX(-1);
 }
 
+.imagen-fondo-costanera {
+  background-image: url("../img/costanera2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
+.imagen-fondo-borja {
+  background-image: url("../img/borja-banner.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
 .imagen-fondo-viena {
   background-image: url("../img/viena9.jpg");
   background-size: cover;
