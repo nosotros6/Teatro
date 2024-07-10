@@ -123,6 +123,15 @@ mark {
   height: 40em;
 }
 
+.imagen-fondo-lirica {
+  background-image: url("../img/lirica-banner.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
 
 .texto-banner {
   font-family: "Martel", serif;
