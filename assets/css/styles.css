@@ -142,4 +142,10 @@ mark {
   #parrafo-ancho-desktop {
     display: none; 
   }
+  #imagen-fondo {
+    display: none;
+  }
+  #img-desktop {
+    display: none;
+  }
 }
