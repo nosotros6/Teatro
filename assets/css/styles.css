@@ -13,11 +13,13 @@
   font-family: "DM Sans", sans-serif;
   font-weight: 300;
   color: #ffffff !important;
+
   &:hover,
   &:focus {
     color: #82a3f1 !important;
   }
 }
+
 /* 
 .navbar-toggler {
   border-color: rgba(0, 0, 0, 0) !important;
@@ -40,6 +42,31 @@
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 300;
+}
+
+.texto-banner {
+  font-family: "Martel", serif;
+  font-size: 48px;
+  color: #ffffff;
+  padding-top: 8em;
+}
+
+.texto-banner-inicios {
+  font-family: "Martel", serif;
+  font-size: 48px;
+  padding-top: 8em;
+  color: white;
+  text-shadow:
+    -2px -2px 0 #5c5047,
+    0px -0px 0 #3c342e,
+    -0px 0px 0 #3c342e,
+    0px 0px 0 #3c342e;
+}
+
+#texto-btn-youtube {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .enlace-footer a {
@@ -72,7 +99,7 @@ mark {
 .imagen-fondo-borja {
   background-image: url("../img/borja-banner.jpg");
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   height: 40em;
@@ -132,28 +159,34 @@ mark {
   height: 40em;
 }
 
-
-.texto-banner {
-  font-family: "Martel", serif;
-  font-size: 48px;
-  color: #ffffff;
-  padding-top: 8em;
+.imagen-fondo-inicios {
+  background-image: url("../img/teatro-antiguo-conce.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
 }
+
 
 /* Estilos para tamaños de tablet hacia arriba */
 @media only screen and (min-width: 768px) {
   #parrafo-ancho-movil {
+
     display: none;
   }
 }
+
 /* Estilos para tamaños de pantalla móvil */
 @media only screen and (max-width: 767px) {
   #parrafo-ancho-desktop {
-    display: none; 
+    display: none;
   }
+
   #imagen-fondo {
     display: none;
   }
+
   #img-desktop {
     display: none;
   }
