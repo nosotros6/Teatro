@@ -172,7 +172,6 @@ mark {
 /* Estilos para tamaños de tablet hacia arriba */
 @media only screen and (min-width: 768px) {
   #parrafo-ancho-movil {
-
     display: none;
   }
 }
