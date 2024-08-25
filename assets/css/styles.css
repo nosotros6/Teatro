@@ -82,6 +82,15 @@ mark {
   transform: scaleX(-1);
 }
 
+.imagen-fondo-prologo {
+  background-image: url("../img/inicios-teatro-regional-biobio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
 .imagen-fondo-costanera {
   background-image: url("../img/costanera2.jpg");
   background-size: cover;
