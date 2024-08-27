@@ -6,8 +6,9 @@
 
 .sub-brand {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 300;
+  color: dimgray;
 }
 
 .nav-link {
@@ -193,6 +194,15 @@ mark {
 
 .imagen-fondo-presidentes {
   background-image: url("../img/presidentes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
+.imagen-fondo-despedida {
+  background-image: url("../img/trbb-despedida.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
