@@ -1,6 +1,7 @@
 .brand {
   font-family: "Martel", serif;
-  font-weight: 800;
+  font-weight: 600;
+  color: dimgray;
 }
 
 .sub-brand {
