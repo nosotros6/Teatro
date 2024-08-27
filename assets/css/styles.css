@@ -172,6 +172,33 @@ mark {
   height: 40em;
 }
 
+.imagen-fondo-lampara {
+  background-image: url("../img/teatro-lampara-biobio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
+.imagen-fondo-tartufo {
+  background-image: url("../img/Gospel001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
+.imagen-fondo-presidentes {
+  background-image: url("../img/presidentes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40em;
+}
+
 /* Estilos para tamaños de tablet hacia arriba */
 @media only screen and (min-width: 768px) {
   #parrafo-ancho-movil {
