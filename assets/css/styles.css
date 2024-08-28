@@ -215,6 +215,10 @@ mark {
   #parrafo-ancho-movil {
     display: none;
   }
+
+  #img-movil {
+    display: none;
+  }
 }
 
 /* Estilos para tamaños de pantalla móvil NO SE VEN EN MOVIL*/
