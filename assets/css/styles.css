@@ -217,7 +217,7 @@ mark {
   }
 }
 
-/* Estilos para tamaños de pantalla móvil */
+/* Estilos para tamaños de pantalla móvil NO SE VEN EN MOVIL*/
 @media only screen and (max-width: 767px) {
   #parrafo-ancho-desktop {
     display: none;
